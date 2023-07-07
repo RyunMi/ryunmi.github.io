@@ -24,4 +24,10 @@ group :jekyll_plugins do
   gem "jekyll-feed"
   gem 'jekyll-sitemap'
   gem 'hawkins'
+  platforms :mingw, :x64_mingw, :mswin, :jruby do
+    gem "tzinfo", "~> 1.2"
+    gem "tzinfo-data"
+  end
 end
+
+gem "webrick", "~> 1.8"

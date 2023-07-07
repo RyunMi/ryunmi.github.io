@@ -3,16 +3,16 @@ main:
   - title: "Publications"
     url: /publications/
     
-  - title: "Research"
-    url: /research/
+  #- title: "Research"
+  #  url: /research/
 
-  - title: "Teaching"
-    url: /teaching/
+  #- title: "Teaching"
+  #  url: /teaching/
 
-  - title: "Software"
+  - title: "Code"
     url: /software/
 
-  - title: "Posts"
+  - title: "Paper Reading"
     url: /posts/
     
   - title: "CV"
