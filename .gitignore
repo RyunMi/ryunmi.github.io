@@ -1,7 +1,7 @@
+.vscode/
 _site/
 images/posts/*.tex
 images/posts/*.pdf
 images/posts/*.sty
 _source/*_cache
 .Rproj.user
-.vscode/
