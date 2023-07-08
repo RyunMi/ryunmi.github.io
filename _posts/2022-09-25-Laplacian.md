@@ -10,7 +10,7 @@ tags:
 # banner: /images/posts/read1.png
 ---
 
-<img src="/images/posts/read1.png" style="display: block; margin: auto;" />
+<img src="/images/posts/read1.png" style="box-shadow:1px 3px 15px 2px #888888;border-radius: 7px;" />
 
 # Problem introduction
 ---

@@ -4,14 +4,14 @@ title: "Personal"
 permalink: /personal/
 author_profile: true
 gallery:
-  - url: personal/lover.jpg
-    image_path: personal/lover.jpg
-    alt: "lover"
-    title: "Lover"
-  - url: personal/teammate.jpg
-    image_path: personal/teammate.jpg
-    alt: "teammate"
-    title: "Teammate"
+  - url: personal/love.jpg
+    image_path: personal/love.jpg
+    alt: "love"
+    title: "Love"
+  - url: personal/team.jpg
+    image_path: personal/team.jpg
+    alt: "team"
+    title: "Team"
 ---
 
 My dear family and my love <b>Dingyi</b> have given me full care and great confidence in my academic journey. They are the strength and source of my struggle.
