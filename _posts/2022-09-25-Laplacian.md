@@ -6,7 +6,12 @@ categories:
 tags:
 - Optimization
 - Graph learning
+# cover: /images/posts/read1.png
+# banner: /images/posts/read1.png
 ---
+
+<img src="/images/posts/read1.png" style="display: block; margin: auto;" />
+
 # Problem introduction
 ---
 The paper introduced an optimization problem to learn a graph from signals that are assumed to be smooth and admitting a sparse representation in the spectral domain of the graph.

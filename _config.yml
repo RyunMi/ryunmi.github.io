@@ -94,6 +94,8 @@ author:
   googlescholar    : "https://scholar.google.com/citations?user=03cljLgAAAAJ&hl=en"
   email            : "ryunxiaomi@gmail.com"
   researchgate     : "https://www.researchgate.net/profile/Kerun-Mi"
+  dblp             : "https://dblp.org/pid/334/6401"
+  semantic         : "https://www.semanticscholar.org/author/Kerun-Mi/2182183727"
   uri              :
   bitbucket        :
   codepen          :
@@ -121,7 +123,7 @@ author:
   xing             :
   youtube          :
   wikipedia        :
-
+  zhihu            : "run-run-run-19"
 
 # Reading Files
 include:
