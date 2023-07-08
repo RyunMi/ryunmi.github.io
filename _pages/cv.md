@@ -3,8 +3,6 @@ layout: archive
 title: "CV"
 permalink: /cv/
 author_profile: true
-redirect_from:
-  - /resume
 ---
 
 Education
@@ -18,11 +16,17 @@ Education
 
 <!-- Talks
 ======
-* -->
+<ul>{% for post in site.talks %}
+  {% include archive-single-talk-cv.html %}
+{% endfor %}</ul>
+-->
 
 <!-- Teaching
 ======
-* -->
+<ul>{% for post in site.teaching %}
+  {% include archive-single-cv.html %}
+{% endfor %}</ul>
+-->
 
 Awards
 ======
