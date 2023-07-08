@@ -10,7 +10,7 @@ main:
   #  url: /teaching/
 
   - title: "Code"
-    url: /software/
+    url: /code/
 
   - title: "Blog"
     url: /blogs/
