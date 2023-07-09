@@ -44,15 +44,7 @@
     {% if post.collection == 'teaching' %}
       <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
     {% elsif post.collection == 'publications' %}
-      {% if post.abstract %}
-        <details><summary>Abstract</summary>
-        <blockquote>
-        <p>
-        {{ post.abstract }}
-        </p>
-        </blockquote>
-        </details>
-      {% endif %}
+      
       
       <!-- description and icon code -->
       <p>
@@ -67,13 +59,16 @@
         <a href="{{ post.paperurl }}"><i class="fas fa-fw fa-file-pdf zoom" aria-hidden="true"></i></a>
       {% endif %}
       {% if post.ppt %}
-        <a href="{{ post.ppt }}"><i class="fa-brands fa-slideshare" aria-hidden="true"></i></a>
+        <a href="{{ post.ppt }}"><i class="fa-solid fa-presentation-screen zoom" aria-hidden="true"></i></a>
       {% endif %}
       {% if post.code %}
         <a href="{{ post.code }}"><i class="fas fa-fw fa-code zoom" aria-hidden="true"></i></a>
       {% endif %}
       {% if post.github %}
         <a href="{{ post.github }}"><i class="fab fa-fw fa-github zoom" aria-hidden="true"></i></a>
+      {% endif %}
+      {% if post.bibtex %}
+        <a href="{{ post.bibtex }}"><i class="fa-solid fa-book-bible zoom" aria-hidden="true"></i></a>
       {% endif %}
       </p>
     {% elsif post.collection == 'posts' and post.date %}

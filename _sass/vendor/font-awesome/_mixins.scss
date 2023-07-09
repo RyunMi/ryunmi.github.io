@@ -41,8 +41,6 @@
   }
 }
 
-// sets a specific icon family to use alongside style + icon mixins
-
 // convenience mixins for declaring pseudo-elements by CSS variable,
 // including all style-specific font properties, and both the ::before
 // and ::after elements in the duotone case.
@@ -61,6 +59,36 @@
 
   &::before {
     content: unquote("\"#{ $fa-var }\"");
+  }
+}
+
+@mixin fa-icon-light($fa-var) {
+  @extend %fa-icon;
+  @extend .fa-light;
+
+  &::before {
+    content: unquote("\"#{ $fa-var }\"");
+  }
+}
+
+@mixin fa-icon-thin($fa-var) {
+  @extend %fa-icon;
+  @extend .fa-thin;
+
+  &::before {
+    content: unquote("\"#{ $fa-var }\"");
+  }
+}
+
+@mixin fa-icon-duotone($fa-var) {
+  @extend %fa-icon;
+  @extend .fa-duotone;
+
+  &::before {
+    content: unquote("\"#{ $fa-var }\"");
+  }
+  &::after {
+    content: unquote("\"#{ $fa-var }#{ $fa-var }\"");
   }
 }
 
