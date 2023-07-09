@@ -30,8 +30,8 @@ Education
 
 Awards
 ======
-* Provincial Second Prize of <a href="http://www.mcm.edu.cn/">Contemporary Undergraduate Mathematical Contest in Modeling</a>, 2021
-* National Third Prize of <a href="http://www.china-cssc.org/list-55-1.html">National Undergraduate Market Survey and Analysis Competition</a>, 2022
+* Provincial Second Prize of <a href="http://www.mcm.edu.cn/">Contemporary Undergraduate Mathematical Contest in Modeling</a> with Yunxiao Li and Xinyang Zhou, 2021
+* National Third Prize of <a href="http://www.china-cssc.org/list-55-1.html">National Undergraduate Market Survey and Analysis Competition</a> with Qinghong Zeng, Wanxiang Xu and Endian Tang, 2022
 
 Honor
 ======
